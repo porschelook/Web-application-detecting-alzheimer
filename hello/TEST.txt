@@ -1,0 +1,107 @@
+62.93983328289636+  
+60.94155050134508+   
+67.59077124825833+  
+68.64968053607605 +
+62.18296711187706 + 
+62.144636991731794 +
+61.25364502928276 +  
+60.425586136595314 +
+66.19507409511024 + 
+65.49442628015343 +  
+60.987335834896804 +  
+67.57010896620388 +  
+57.77777777777777 + 
+58.09426229508197 + 
+57.85451834495979 + 
+60.37250305748063 + 
+62.499668443807856 +
+65.67998828868394 +
+54.558251433251435 +  
+56.735632183908045  /20 = 61.997410892
+
+
+3.2437020644496313+1.2721216742244874+1.3287874814232012+1.1409302970114092+3.521366551274048+1.571968834009204+1.3201584190102813+2.6457756719988743+2.4356203853772738+1.359604154593679+1.1161566863302634+0.6957547169811321+3.649939114272896+1.1682341529248028+0.8151326053042122+ 0.7777624372957799+ 0.6668073433213758+3.4008128211026762+3.239468864468865+5.038474132285527 /20 
+= 2.02042892038
+-----------------------------------------------------------------------------------------------------------------
+name = /media/OAS30144_1.PNG || Brain_Per_All = 49.00061719603095 || Hole_Pre_Brain = 6.346284274779576
+name = /media/OAS30144_2.PNG || Brain_Per_All = 49.9500815740132 || Hole_Pre_Brain = 6.951689172719738
+name = /media/OAS30145_1.PNG || Brain_Per_All = 58.68410128684102 || Hole_Pre_Brain = 9.860649359835891
+name = /media/OAS30145_2.PNG || Brain_Per_All = 61.542266187050366 || Hole_Pre_Brain = 10.462482647767954
+name = /media/OAS30358_1.PNG || Brain_Per_All = 60.18684999118632 || Hole_Pre_Brain = 3.069353327085286
+name = /media/OAS30358_2.PNG || Brain_Per_All = 60.03565970453387 || Hole_Pre_Brain = 1.8498090793381419
+name = /media/OAS31074_1.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604
+name = /media/OAS31074_2.PNG || Brain_Per_All = 57.286402804147805 || Hole_Pre_Brain = 5.863756883540689
+name = /media/OAS31086_1.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567
+name = /media/OAS31086_2.PNG || Brain_Per_All = 56.56643868025982 || Hole_Pre_Brain = 5.509505703422053
+name = /media/OAS31135_1.PNG || Brain_Per_All = 53.062484281762266 || Hole_Pre_Brain = 5.062691197380326
+name = /media/OAS31135_2.PNG || Brain_Per_All = 56.71840864665977 || Hole_Pre_Brain = 4.2815439506973725
+name = /media/OAS31140_1.PNG || Brain_Per_All = 51.89285059017797 || Hole_Pre_Brain = 4.166175604007071
+name = /media/OAS31140_2.PNG || Brain_Per_All = 51.464633771746115 || Hole_Pre_Brain = 4.215952251763429
+name = /media/OAS31144_1.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634
+name = /media/OAS31144_2.PNG || Brain_Per_All = 63.12727272727273 || Hole_Pre_Brain = 5.841973886328725
+name = /media/OAS31152_1.PNG || Brain_Per_All = 53.07468377257387 || Hole_Pre_Brain = 5.382972526939132
+name = /media/OAS31152_2.PNG || Brain_Per_All = 53.604714912280706 || Hole_Pre_Brain = 5.727435438506776
+name = /media/OAS31171_1.PNG || Brain_Per_All = 51.87125748502994 || Hole_Pre_Brain = 6.956469456469456
+name = /media/OAS31171_2.PNG || Brain_Per_All = 51.4834690352825 || Hole_Pre_Brain = 7.590007787695441
+---------------------------------------------------------------------------------------------------------------
+name = /media/OAS31171_1_O1DgOL9.PNG || Brain_Per_All = 51.87125748502994 || Hole_Pre_Brain = 6.956469456469456
+
+name = /media/OAS31171_1_iFMFBN8.PNG || Brain_Per_All = 51.87125748502994 || Hole_Pre_Brain = 6.956469456469456 || ans = bad
+----------------------------------------------------------------------------------------------------------------
+name = /media/OAS30144_1_WoERWWb.PNG || Brain_Per_All = 49.00061719603095 || Hole_Pre_Brain = 6.346284274779576 || ans = bad
+name = /media/OAS31074_1_qDePjHx.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_EI0RKtz.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_qzPJaiI.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_kehAB9w.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_HJg3vlg.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_P6wmxIL.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_WsEKZPi.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_z8HQOFp.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31074_1_JgM6Mzf.PNG || Brain_Per_All = 56.145709598959215 || Hole_Pre_Brain = 7.958895829135604 || ans = don't sure
+name = /media/OAS31086_1_XuwQrFI.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31144_1_gl4HPMI.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_MJIb6he.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31086_1_zHARAzY.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31086_1_U5sCDoW.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31086_1_o171sBQ.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31086_1_8CdHwUz.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31086_1_HD3DULL.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31086_1_7hsbvVe.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31086_1_7U5Vv1b.PNG || Brain_Per_All = 56.088975272648746 || Hole_Pre_Brain = 4.939935314954567 || ans = don't sure
+name = /media/OAS31140_2_QRbOpbr.PNG || Brain_Per_All = 51.464633771746115 || Hole_Pre_Brain = 4.215952251763429 || ans = bad
+name = /media/OAS31144_1_ylg0C5N.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_tUTdBIS.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_dxgi3xE.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_ta3JYpn.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_9vvobXx.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_kbeDXlN.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_YkmG9BD.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_lfegiBg.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_y4yGT2N.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_cGd4dzc.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_ABGGCz9.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_gdaOlhm.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_kTXfvE6.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+name = /media/OAS31144_1_V0dhTXS.PNG || Brain_Per_All = 55.74356758832565 || Hole_Pre_Brain = 5.42518837459634 || ans = don't sure
+---------------------------------------------------------------------
+
+62.93983328289636 1.3287874814232012 -------- 
+60.94155050134508 1.2721216742244874 -------- 
+67.59077124825833 3.2437020644496313 -------- 
+68.64968053607605 3.521366551274048 -------- 
+62.18296711187706 1.1409302970114092 -------- 
+62.144636991731794 1.571968834009204 -------- 
+61.25364502928276 1.3201584190102813 -------- 
+65.49442628015343 0.6957547169811321 -------- 
+57.85451834495979 0.7777624372957799 -------- 
+57.85451834495979 0.7777624372957799 -------- 
+60.987335834896804 3.649939114272896 -------- 
+56.735632183908045 2.4356203853772738 -------- 
+61.542266187050366 10.462482647767954 -------- 
+60.03565970453387 1.8498090793381419 -------- 
+51.4834690352825 7.590007787695441 -------- 
+51.4834690352825 7.590007787695441 -------- 
+56.088975272648746 4.939935314954567 -------- 
+60.18684999118632 3.069353327085286 -------- 
+60.18684999118632 3.069353327085286 -------- 
+49.9500815740132 6.951689172719738 -------- 

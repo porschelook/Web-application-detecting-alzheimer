@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block l  %} Home {% endblock %}
+
+
+
+{% block content %}
+
+  <ul>
+    <li>
+      <a href="{% url 'simple_upload' %}">Simple Upload</a>
+    </li>
+    <li>
+      <a href="{% url 'model_form_upload' %}">Model Form Upload</a>
+    </li>
+  </ul>s
+<h1>{{ x.name }}</h1>
+<h1>{{ x.testt }}</h1>
+
+  <p>Uploaded files:</p>
+  <ul>
+    <h1>TEST_c</h1>
+      {{x}}
+</ul>
+  <!-- <ul>
+    {% for obj in x.document %}
+      <li>
+        <a href="{{ obj.document.url }}">{{ obj.s.url }}</a>
+        <small>(Uploaded at: {{ obj.uploaded_at }})</small>
+      </li>
+    {% endfor %}
+  </ul> -->
+{% endblock %}
+
+
+{% block css %} lllllll11111111  {% endblock %}
