@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  travel-django:
+    build: ./travel
+    command: sh /code/setup.sh
+    volumes:
+      - ./travel:/code
+    ports:
+      - "9000:80"
