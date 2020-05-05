@@ -46,13 +46,13 @@ def home_2(request):
 
         ans,Brain_Per_All,Hole_Pre_Brain = hello.run(uploaded_file_url)
 
-        f = open('C:/Users/porsc/cs402_test/hello/TEST.txt', 'a')
-        #xxxx  = "name = "+str(uploaded_file_url)+" || Brain_Per_All = "+str(Brain_Per_All)+" || Hole_Pre_Brain = "+str(Hole_Pre_Brain)+" || ans = "+str(ans)+"\n"
-
-
-
-        xxxx  = str(Brain_Per_All)+" "+str(Hole_Pre_Brain)+" -------- "+"\n"
-        f.write(xxxx)
+        # f = open('C:/Users/porsc/cs402_test/hello/TEST.txt', 'a')
+        # #xxxx  = "name = "+str(uploaded_file_url)+" || Brain_Per_All = "+str(Brain_Per_All)+" || Hole_Pre_Brain = "+str(Hole_Pre_Brain)+" || ans = "+str(ans)+"\n"
+        #
+        #
+        #
+        # xxxx  = str(Brain_Per_All)+" "+str(Hole_Pre_Brain)+" -------- "+"\n"
+        # f.write(xxxx)
 
         f.close()
         percent = Brain_Per_All
