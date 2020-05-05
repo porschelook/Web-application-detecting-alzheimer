@@ -2,10 +2,10 @@ version: '3'
 
 services:
 
-  travel-django:
-    build: ./travel
+  hello-django:
+    build: ./hello
     command: sh /code/setup.sh
     volumes:
-      - ./travel:/code
+      - ./hello:/code
     ports:
       - "9000:80"
