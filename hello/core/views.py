@@ -54,7 +54,7 @@ def home_2(request):
         # xxxx  = str(Brain_Per_All)+" "+str(Hole_Pre_Brain)+" -------- "+"\n"
         # f.write(xxxx)
 
-        f.close()
+        #f.close()
         percent = Brain_Per_All
         x ={
         'uploaded_file_url' : uploaded_file_url ,
