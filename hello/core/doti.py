@@ -93,18 +93,28 @@ class hello():
     def show(Brain_Per_All,Hole_Pre_Brain):
         brain = False
         hold = False
-        Per_brain = 55
-        Per_hold = 4
-        good = "good"
-        bad = "bad"
-        uncertain =  "don't sure"
+        Per_brain = 63.239662
+        Per_hold = 3.904078
+        good = "ไม่มีโอกาศเสี่ยเป็นโรคอัลไซเมอร์"
+        bad = "มีโอกาศเสี่ยเป็นโรคอัลไซเมอร์"
+        uncertain =  "มีโอกาศเสี่ยเป็นโรคอัลไซเมอร์ ควรไปพบแพทย์"
         result = "NULL"
-        if (Brain_Per_All > Per_brain) :
+
+        if (Hole_Pre_Brain > Per_hold) :
+            if (Brain_Per_All > Per_brain) :
+                if (Hole_Pre_Brain > Per_hold) :
+                    hold = True
+                    brain = True
+                else :
+                    brain = True
+                    hold = False
+            else:
+                brain = False
+                hold = False
+        else :
+            hold = True
             brain = True
 
-
-        if (Hole_Pre_Brain < Per_hold) :
-            hold = True
 
 
         if (brain == True) and (hold == True):

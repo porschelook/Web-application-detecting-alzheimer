@@ -46,21 +46,24 @@ def home_2(request):
 
         ans,Brain_Per_All,Hole_Pre_Brain = hello.run(uploaded_file_url)
 
-        # f = open('C:/Users/porsc/cs402_test/hello/TEST.txt', 'a')
-        # #xxxx  = "name = "+str(uploaded_file_url)+" || Brain_Per_All = "+str(Brain_Per_All)+" || Hole_Pre_Brain = "+str(Hole_Pre_Brain)+" || ans = "+str(ans)+"\n"
-        #
-        #
-        #
-        # xxxx  = str(Brain_Per_All)+" "+str(Hole_Pre_Brain)+" -------- "+"\n"
-        # f.write(xxxx)
+        #f = open('C:/Users/porsc/cs402_test/hello/TEST.txt', 'a')
+        #xxxx  = "name = "+str(uploaded_file_url)+" || Brain_Per_All = "+str(Brain_Per_All)+" || Hole_Pre_Brain = "+str(Hole_Pre_Brain)+" || ans = "+str(ans)+"\n"
+
+        #xxxx  ="["+filename+","+str(Brain_Per_All)+","+str(Hole_Pre_Brain)+"] ,"+"\n"
+        xxxx  =filename+"	"+str(Brain_Per_All)+"	"+str(Hole_Pre_Brain)+"	"+str(ans)+"\n"
+        Brain_Per_All = round(Brain_Per_All , 2)
+        Hole_Pre_Brain  = round(Hole_Pre_Brain , 2)
+        #f.write(xxxx)
 
         #f.close()
-        percent = Brain_Per_All
+
+
         x ={
         'uploaded_file_url' : uploaded_file_url ,
-        'percent':percent,
+        'Brain_Per_All':Brain_Per_All,
         'ans' : ans ,
-        'name' : name
+        'name' : name,
+        'Hole_Pre_Brain':Hole_Pre_Brain,
         }
         #return render(request, 'core/simple_upload.html', {'x': x})
         return render(request, 'core/index.html', { 'x': x })
