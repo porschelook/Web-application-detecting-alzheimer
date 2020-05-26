@@ -29,7 +29,6 @@ def home_2(request):
 def home(request):
     Brain_Per_All = "0"
     Hole_Pre_Brain = "0"
-    name = "0"
     ans = "-"
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
@@ -50,7 +49,6 @@ def home(request):
         'uploaded_file_url' : uploaded_file_url ,
         'Brain_Per_All':Brain_Per_All,
         'ans' : ans ,
-        'name' : name,
         'Hole_Pre_Brain':Hole_Pre_Brain,
         }
         return render(request, 'core/index.html', { 'x': x })
@@ -60,7 +58,6 @@ def home(request):
     x = {
     'Brain_Per_All':Brain_Per_All,
     'ans' : ans ,
-    'name' : name,
     'Hole_Pre_Brain':Hole_Pre_Brain,
     }
     return render(request, 'core/index.html', { 'x': x })
