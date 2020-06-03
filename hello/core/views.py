@@ -31,32 +31,33 @@ def home(request):
     Hole_Pre_Brain = "0"
     name = "0"
     ans = "-"
-    uploaded_file_url =  "/media/default.png"
-    if request.method == 'POST' and request.FILES['myfile']:
-        myfile = request.FILES['myfile']
-        fs = FileSystemStorage()
-        filename = fs.save(myfile.name, myfile)
-        uploaded_file_url = fs.url(filename)
-        ans,Brain_Per_All,Hole_Pre_Brain = hello.run(uploaded_file_url)
-        #f = open('C:/Users/porsc/cs402_test/hello/TEST.txt', 'a')
-        #xxxx  = "name = "+str(uploaded_file_url)+" || Brain_Per_All = "+str(Brain_Per_All)+" || Hole_Pre_Brain = "+str(Hole_Pre_Brain)+" || ans = "+str(ans)+"\n"
-        #xxxx  ="["+filename+","+str(Brain_Per_All)+","+str(Hole_Pre_Brain)+"] ,"+"\n"
-        #xxxx  =filename+"	"+str(Brain_Per_All)+"	"+str(Hole_Pre_Brain)+"	"+str(ans)+"\n"
-        Brain_Per_All = round(Brain_Per_All , 2)
-        Hole_Pre_Brain  = round(Hole_Pre_Brain , 2)
-        #f.write(xxxx)
-        #f.close()
-        print(uploaded_file_url)
-        x ={
-        'uploaded_file_url' : uploaded_file_url ,
-        'Brain_Per_All':Brain_Per_All,
-        'ans' : ans ,
-        'name' : name,
-        'Hole_Pre_Brain':Hole_Pre_Brain,
-        }
-        return render(request, 'core/index.html', { 'x': x })
-    else:
-        name = "ERROR"
+    uploaded_file_url =  "/media/default.PNG"
+    try:
+        if request.method == 'POST' and request.FILES['myfile']:
+            myfile = request.FILES['myfile']
+            fs = FileSystemStorage()
+            filename = fs.save(myfile.name, myfile)
+            uploaded_file_url = fs.url(filename)
+            ans,Brain_Per_All,Hole_Pre_Brain = hello.run(uploaded_file_url)
+            #f = open('C:/Users/porsc/cs402_test/hello/TEST.txt', 'a')
+            #xxxx  = "name = "+str(uploaded_file_url)+" || Brain_Per_All = "+str(Brain_Per_All)+" || Hole_Pre_Brain = "+str(Hole_Pre_Brain)+" || ans = "+str(ans)+"\n"
+            #xxxx  ="["+filename+","+str(Brain_Per_All)+","+str(Hole_Pre_Brain)+"] ,"+"\n"
+            #xxxx  =filename+"	"+str(Brain_Per_All)+"	"+str(Hole_Pre_Brain)+"	"+str(ans)+"\n"
+            Brain_Per_All = round(Brain_Per_All , 2)
+            Hole_Pre_Brain  = round(Hole_Pre_Brain , 2)
+            #f.write(xxxx)
+            #f.close()
+            print(uploaded_file_url)
+            x ={
+            'uploaded_file_url' : uploaded_file_url ,
+            'Brain_Per_All':Brain_Per_All,
+            'ans' : ans ,
+            'name' : name,
+            'Hole_Pre_Brain':Hole_Pre_Brain,
+            }
+            return render(request, 'core/index.html', { 'x': x })
+    except:
+        print("An exception occurred")
 
     x = {
     'Brain_Per_All':Brain_Per_All,
@@ -69,14 +70,18 @@ def home(request):
 
 
 def simple_upload(request):
-    if request.method == 'POST' and request.FILES['myfile']:
-        myfile = request.FILES['myfile']
-        fs = FileSystemStorage()
-        filename = fs.save(myfile.name, myfile)
-        uploaded_file_url = fs.url(filename)
-        return render(request, 'core/simple_upload.html', {
-            'uploaded_file_url': uploaded_file_url
-        })
+    try:
+        if request.method == 'POST' and request.FILES['myfile']:
+            print("not ERROR")
+            myfile = request.FILES['myfile']
+            fs = FileSystemStorage()
+            filename = fs.save(myfile.name, myfile)
+            uploaded_file_url = fs.url(filename)
+            return render(request, 'core/simple_upload.html', {
+                'uploaded_file_url': uploaded_file_url
+            })
+    except:
+        print("An exception occurred")
     return render(request, 'core/simple_upload.html')
 
 
