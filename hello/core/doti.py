@@ -113,12 +113,26 @@ class hello():
         Brain_Per_All = hello.cal(w,b,w+b)
         piccut = hello.middlecut(cropp)
         piccut = ~piccut
-        w_H,b_H = hello.count(piccut)
+        result_2,x_2,y_2,w_2,h_2 = hello.detect(piccut)
+        cropp_2 = hello.crop(result_2,x_2,y_2,w_2,h_2)
+        w_H,b_H = hello.count(cropp_2)
         Hole_Pre_Brain = hello.cal(w_H,b_H,w)
         ans = hello.show(Brain_Per_All,Hole_Pre_Brain)
+
+        # cv2.imshow("orginal", r_pic)
+        # cv2.imshow("brain", result)
+        # cv2.imshow("BW", cropp)
+        # cv2.imshow("hold", piccut)
+        # cv2.imshow("orginal_2", piccut)
+        # cv2.imshow("BW_2", result_2)
+        # cv2.imshow("hold_2", cropp_2)
 
         print("Brain_Per_All : ",Brain_Per_All)
         print("Hole_Pre_Brain : ",Hole_Pre_Brain)
         print("Ture / False : ",ans)
+
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
+
 
         return ans,Brain_Per_All,Hole_Pre_Brain

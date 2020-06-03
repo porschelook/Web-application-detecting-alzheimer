@@ -29,7 +29,9 @@ def home_2(request):
 def home(request):
     Brain_Per_All = "0"
     Hole_Pre_Brain = "0"
+    name = "0"
     ans = "-"
+    uploaded_file_url =  "/media/default.PNG"
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
         fs = FileSystemStorage()
@@ -44,11 +46,12 @@ def home(request):
         Hole_Pre_Brain  = round(Hole_Pre_Brain , 2)
         #f.write(xxxx)
         #f.close()
-
+        print(uploaded_file_url)
         x ={
         'uploaded_file_url' : uploaded_file_url ,
         'Brain_Per_All':Brain_Per_All,
         'ans' : ans ,
+        'name' : name,
         'Hole_Pre_Brain':Hole_Pre_Brain,
         }
         return render(request, 'core/index.html', { 'x': x })
@@ -58,7 +61,9 @@ def home(request):
     x = {
     'Brain_Per_All':Brain_Per_All,
     'ans' : ans ,
+    'name' : name,
     'Hole_Pre_Brain':Hole_Pre_Brain,
+    'uploaded_file_url' : uploaded_file_url ,
     }
     return render(request, 'core/index.html', { 'x': x })
 
