@@ -31,7 +31,7 @@ def home(request):
     Hole_Pre_Brain = "0"
     name = "0"
     ans = "-"
-    uploaded_file_url =  "/media/default.PNG"
+    uploaded_file_url =  "/media/default.png"
     if request.method == 'POST' and request.FILES['myfile']:
         myfile = request.FILES['myfile']
         fs = FileSystemStorage()
