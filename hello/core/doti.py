@@ -113,12 +113,16 @@ class hello():
         Brain_Per_All = hello.cal(w,b,w+b)
         piccut = hello.middlecut(cropp)
         piccut = ~piccut
-        result_2,x_2,y_2,w_2,h_2 = hello.detect(piccut)
-        cropp_2 = hello.crop(result_2,x_2,y_2,w_2,h_2)
-        w_H,b_H = hello.count(cropp_2)
+        #cut and detect
+        # result_2,x_2,y_2,w_2,h_2 = hello.detect(piccut)
+        # cropp_2 = hello.crop(result_2,x_2,y_2,w_2,h_2)
+        # w_H,b_H = hello.count(cropp_2)
+        # Hole_Pre_Brain = hello.cal(w_H,b_H,w)
+        w_H,b_H = hello.count(piccut)
         Hole_Pre_Brain = hello.cal(w_H,b_H,w)
         ans = hello.show(Brain_Per_All,Hole_Pre_Brain)
-
+        
+        #show img
         # cv2.imshow("orginal", r_pic)
         # cv2.imshow("brain", result)
         # cv2.imshow("BW", cropp)
