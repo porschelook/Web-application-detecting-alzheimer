@@ -38,6 +38,10 @@ Create Venv
 > pipenv shell
 ```
 
+```
+>pip install opencv-python
+```
+
 step 2
 Clone project in gitlab
 ```
