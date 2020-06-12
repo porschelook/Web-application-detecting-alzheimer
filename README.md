@@ -11,7 +11,7 @@ step 1
 
 step 2
 ```
-> git clone https://gitlab.com/prasong-prasong/cs402_web_travel.git
+> git clone https://gitlab.com/porschelook/cs402.git
 ```
 
 step 3
@@ -41,7 +41,7 @@ Create Venv
 step 2
 Clone project in gitlab
 ```
-> git clone https://gitlab.com/prasong-prasong/cs402_web_travel.git
+> git clone https://gitlab.com/porschelook/cs402.git
 ```
 
 step 3
