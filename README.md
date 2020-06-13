@@ -1,6 +1,6 @@
 # CS402
 
-# cs402_web_travel
+# cs402 alzheimer
 
 ### Run Docker
 step 1
