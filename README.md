@@ -26,37 +26,7 @@ Docker Command Line
 > sudo docker-compose ps
 ```
 
-### Run Local
 
-step 1
-Install pipenv
-```
-> pip install pipenv
-```
-Create Venv
-```
-> pipenv shell
-```
-
-```
->pip install opencv-python
-```
-
-step 2
-Clone project in gitlab
-```
-> git clone https://gitlab.com/porschelook/cs402.git
-```
-
-step 3
-Install Requirements
-```
-> pip install -r requirements.txt
-```
-Run server on http: 127.0.0.1:8000 (ctrl+c to stop)
-```
-> python manage.py runserver or ./run_app
-```
 
 
 ### Django Other Command Line
